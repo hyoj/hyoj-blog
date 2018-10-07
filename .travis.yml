@@ -9,7 +9,6 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  keep-history: true
   github_token: $GITHUB_TOKEN
   local-dir: docs/.vuepress/dist
   target-branch: master

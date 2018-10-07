@@ -6,3 +6,6 @@ npm-debug.log
 
 # vuepress generate
 docs/.vuepress/dist
+
+# idea
+.idea

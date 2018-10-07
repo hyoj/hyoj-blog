@@ -10,11 +10,14 @@
     "deploy": "push-dir --dir=docs/.vuepress/dist --branch=master --verbose"
   },
   "author": "hyoj <chohyojoy@gmail.com>",
+  "private": true,
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^0.14.4"
   },
   "dependencies": {
+    "date-fns": "^1.29.0",
+    "lodash": "^4.17.11",
     "push-dir": "^0.4.1"
   }
 }

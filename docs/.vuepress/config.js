@@ -12,21 +12,15 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     nav: [
-      {text: 'Home', link: '/'},
-      {text: 'Dev tips', link: '/dev-tips/'},
+      {text: 'Home', link: '/blog/all/'},
+      {text: 'Java', link: '/blog/java/'},
+      {text: 'tips', link: '/blog/tips/'},
     ],
-    /*sidebar: [
-      ['/dev-tips/test/', 'dd']
-    ]*/
-    sidebar: [
-      {
-        title: 'Dev tips',
-        collapsable: false,
-        children: [
-          ['/dev-tips/test/', 'test :D'],
-          ['/dev-tips/im.html', 'yo !']
-        ]
-      }
-    ]
+    sidebar: {
+      '/blog/all/': ['/blog/all/categories/', '/blog/all/tags/'],
+      '/blog/java/': ['/blog/java/basis/', '/blog/java/spring/'],
+      // fallback
+      "/": []
+    }
   }
 }

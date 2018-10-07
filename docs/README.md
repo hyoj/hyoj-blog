@@ -2,6 +2,7 @@
 home: true
 
 actionText: Get Started →
+actionLink: '/blog/'
 
 features:
 - title: Simplicity First

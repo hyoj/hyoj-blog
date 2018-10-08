@@ -4,6 +4,7 @@ module.exports = {
   description: 'hyoj :: Today I Learned',
   serviceWorker: true,
   themeConfig: {
+    logo: '/pint.svg',
     repo: 'hyoj/hyoj.github.io',
     repoLabel: 'Github!',
     docsRepo: 'hyoj/hyoj.github.io',

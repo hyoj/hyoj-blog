@@ -1,7 +1,8 @@
 ---
-title: Lombok
-categories: ['java']
-tags: ['java', 'lombok']
+title: Lombok 사용법과 주의사항
+description: Lombok 사용법, Lombok 주의사항, Lombok 사용법과 주의사항
+categories: [java]
+tags: [java, lombok]
 date: 2018-04-10
 sidebar: auto
 ---

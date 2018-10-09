@@ -6,7 +6,7 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     logo: '/pint.svg',
-    repo: 'hyoj/hyoj.github.io',
+    repo: 'hyoj',
     repoLabel: 'Github!',
     docsRepo: 'hyoj/hyoj.github.io',
     docsDir: 'docs',

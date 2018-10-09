@@ -2,6 +2,7 @@
 module.exports = {
   title: 'Hyoj blog',
   description: 'hyoj :: Today I Learned',
+  ga: 'UA-127141472-1',
   serviceWorker: true,
   themeConfig: {
     logo: '/pint.svg',

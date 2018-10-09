@@ -11,7 +11,6 @@ module.exports = {
     docsRepo: 'hyoj/hyoj.github.io',
     docsDir: 'docs',
     docsBranch: 'develop',
-    editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     nav: [
       {text: 'Home', link: '/blog/all/'},
@@ -21,6 +20,7 @@ module.exports = {
     sidebar: {
       '/blog/all/': ['/blog/all/categories/', '/blog/all/tags/'],
       '/blog/java/': ['/blog/java/basis/', '/blog/java/spring/'],
+      '/blog/tips/': ['/blog/tips/intellij/intellij-plugins/'],
       // fallback
       "/": []
     }

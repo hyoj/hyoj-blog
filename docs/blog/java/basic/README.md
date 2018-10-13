@@ -1,5 +1,5 @@
 ---
-title: Java basis
+title: Java basic
 ---
 
 # {{ $page.title }}

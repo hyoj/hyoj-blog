@@ -24,7 +24,7 @@ module.exports = {
     ],
     sidebar: {
       '/blog/all/': ['/blog/all/categories/', '/blog/all/tags/'],
-      '/blog/java/': ['/blog/java/basis/', '/blog/java/spring/'],
+      '/blog/java/': ['/blog/java/basic/', '/blog/java/spring/'],
       '/blog/tips/': ['/blog/tips/intellij/intellij-plugins/'],
       // fallback
       "/": []

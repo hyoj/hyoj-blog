@@ -4,6 +4,11 @@ module.exports = {
   description: 'hyoj :: Today I Learned',
   ga: 'UA-127141472-1',
   serviceWorker: true,
+  markdown: {
+    config: md => {
+      md.use(require('markdown-it-mermaid').default)
+    }
+  },
   themeConfig: {
     logo: '/pint.svg',
     repo: 'hyoj',

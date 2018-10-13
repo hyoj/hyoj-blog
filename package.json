@@ -18,6 +18,7 @@
   "dependencies": {
     "date-fns": "^1.29.0",
     "lodash": "^4.17.11",
+    "markdown-it-mermaid": "^0.2.5",
     "push-dir": "^0.4.1"
   }
 }

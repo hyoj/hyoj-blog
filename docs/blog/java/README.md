@@ -4,4 +4,4 @@ title: Hello, Java
 
 # {{ $page.title }}
 
-<BlogPosts />
+<BlogPosts by-paths="/blog/java/" />

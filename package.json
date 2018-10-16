@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:build": "vuepress build docs && vuepress-sitemap -h https://hyoj.github.io -d docs/.vuepress/dist",
     "deploy": "push-dir --dir=docs/.vuepress/dist --branch=master --verbose"
   },
   "author": "hyoj <chohyojoy@gmail.com>",
   "private": true,
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^0.14.4"
+    "vuepress": "^0.14.4",
+    "vuepress-plugin-sitemap": "0.0.1"
   },
   "dependencies": {
     "date-fns": "^1.29.0",

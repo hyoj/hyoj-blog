@@ -1,7 +1,7 @@
 ---
 title: JDBC 의 Connection, Statement, ResultSet close 잘 하기
 subtitle: 그리고 try-with-resources 사용방법
-descriptions: ['JDBC 의 Connection, Statement, ResultSet close 잘하기', 'try-with-resources 활용']
+description: [JDBC 의 Connection, Statement, ResultSet close 잘하기, try-with-resources 활용]
 categories: [java]
 tags: [jdbc, java twr]
 date: 2018-10-14
@@ -67,7 +67,7 @@ DBManager 클래스는 JNDI 를 lookup 하여 DataSource 를 통해 Connection �
 
 Java 7 에서 `AutoCloseable` 인터페이스와 `try-with-resources` 가 등장했다.
 
-:point_right: [Java 7 부터 등장한 AutoCloseable 인터페이스 살펴보기](/blog/java/basic/jdk7-autocloseable.html)
+:point_right: [Java 7 부터 등장한 AutoCloseable 인터페이스 살펴보기](/blog/java/basic/java7-autocloseable.html)
 
 `try-with-resources` 를 사용하여 JDBC API 사용하는 코드를 개선해보자.
 try 블록의 소괄호 `()` 안에서 close() 메서드 호출이 필요한 (`AutoCloseable` 를 구현한) 객체를 할당해 주면 된다.

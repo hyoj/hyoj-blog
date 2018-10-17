@@ -4,6 +4,7 @@ categories: ['java']
 tags: ['spring', 'reactor', 'rxjava']
 date: 2018-08-12
 sidebar: auto
+description: RxJava vs Reactor 뭐가 좋나요
 ---
 Spring 으로 서버 개발을 할 때, RxJava와 Reactor 중 어느 것을 쓰는게 좋을지 고민이 되었는데, 몇가지 자료들을 검토해 본 결과 **Reactor** 를 사용해 보기로 결론을 내렸습니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 서블릿 라이프 사이클
-descirption: jsp 라이프 사이클과
+description: 서블릿 라이프 사이클
 date: 2018-10-13
 sidebar: auto
 ---

@@ -1,6 +1,6 @@
 ---
 title: jsp 라이프 사이클, 그리고 spring boot 와 jsp
-descirption: jsp 라이프 사이클 다시보기, spring boot 와 jsp 조합의 한계
+description: jsp 라이프 사이클 다시보기, spring boot 와 jsp 조합의 한계
 date: 2018-10-13
 categories: [java]
 tags: [jsp, spring boot]

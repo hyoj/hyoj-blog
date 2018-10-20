@@ -4,6 +4,7 @@ date: 2018-10-14
 sidebar: auto
 categories: [java]
 tags: [java7]
+description: Java AutoCloseable, Java 7 AutoCloseable 살펴보기
 ---
 
 <!--

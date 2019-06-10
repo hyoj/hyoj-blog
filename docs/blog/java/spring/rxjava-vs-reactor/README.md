@@ -93,6 +93,7 @@ HTTP 요청/응답을 JDK8 친화적으로 접근 할 수 있고, Reactive Strea
 `RouterFunction`, `HandlerFunction` 을 사용하는 방법은 아래 예제 코드를 참고해주세요.  
 [spring.io :: Functional endpoints 예제](https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework) 기반입니다.
 
+```java
     @SpringBootApplication  
     public class DemoReactorApplication {  
         public static void main(String[] args) {  
@@ -137,3 +138,4 @@ HTTP 요청/응답을 JDK8 친화적으로 접근 할 수 있고, Reactive Strea
             return ServerResponse.ok().contentType(APPLICATION_JSON).body(people, Person.class);  
        }  
     }
+```

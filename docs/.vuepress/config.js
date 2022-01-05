@@ -29,5 +29,13 @@ module.exports = {
       // fallback
       "/": []
     }
-  }
+  },
+  plugins: [
+    [
+      "vuepress-plugin-google-adsense",
+      {
+        adClient: "ca-pub-9199147683694786",
+      },
+    ],
+  ]
 }
